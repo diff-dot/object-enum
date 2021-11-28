@@ -1,0 +1,40 @@
+{
+  "name": "@diff-dot/object-enum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "mocha test",
+    "lint": "eslint . --ext .ts",
+    "build": "tsc",
+    "deploy": "tsc; npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diff-dot/object-enum"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "DIFF.",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.2.22",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^13.13.52",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@typescript-eslint/typescript-estree": "^5.4.0",
+    "chai": "^4.3.4",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-no-null": "^1.0.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "mocha": "^7.2.0",
+    "prettier": "^2.5.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^4.4.4"
+  }
+}
